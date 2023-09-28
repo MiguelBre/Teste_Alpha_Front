@@ -1,0 +1,44 @@
+.btn-custom {
+  background-color: #048cd4;
+  height:60px;
+  width: 25%;
+  color: white;
+}
+
+.btn:hover {
+    background-color: #1494d4;
+    color: #BBBBBB;
+}
+
+.input-underlined {
+  border: none;
+  border-bottom: 2px solid #BBBBBB; /* Cor e estilo da linha de destaque */
+  outline: none; /* Remove a borda quando o input está em foco */
+}
+
+.input-selected {
+  border: none;
+  border-bottom: 2px solid #1494d4; /* Cor e estilo da linha de destaque */
+  outline: none; /* Remove a borda quando o input está em foco */
+}
+
+.bigger-input{
+  height: 8%;
+}
+
+.bigger-checkbox{
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.separation-div{
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 100%;
+  background-color: #BBBBBB;
+  height: 3px;
+}
+
+.row-color{
+  background-color: #048cd4;
+}
