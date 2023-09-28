@@ -5,9 +5,13 @@
   color: white;
 }
 
-.btn:hover {
+.btn-submit:hover {
     background-color: #1494d4;
     color: #BBBBBB;
+}
+
+.btn:hover{
+  color: #BBBBBB;
 }
 
 .input-underlined {
@@ -18,7 +22,7 @@
 
 .input-selected {
   border: none;
-  border-bottom: 2px solid #1494d4; /* Cor e estilo da linha de destaque */
+  border-bottom: 2px solid #048cd4; /* Cor e estilo da linha de destaque */
   outline: none; /* Remove a borda quando o input está em foco */
 }
 
@@ -31,6 +35,10 @@
   height: 1.5rem;
 }
 
+.bg-colored{
+  background-color: #048cd4;
+}
+
 .separation-div{
   margin-top: 60px;
   margin-bottom: 60px;
@@ -41,4 +49,8 @@
 
 .row-color{
   background-color: #048cd4;
+}
+
+.logo_rodape {
+  height: 40%;
 }
